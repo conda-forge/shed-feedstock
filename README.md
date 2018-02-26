@@ -14,7 +14,7 @@ Summary: Streaming Heterogeneous Event Data
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/shed-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/shed-feedstock)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/SHED-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/SHED-feedstock)
 
 Current release info
 ====================
