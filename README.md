@@ -14,12 +14,15 @@ Summary: Streaming Heterogeneous Event Data
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/SHED-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/SHED-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/shed-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/shed-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/shed/badges/version.svg)](https://anaconda.org/conda-forge/shed)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/shed/badges/downloads.svg)](https://anaconda.org/conda-forge/shed)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-shed-green.svg)](https://anaconda.org/conda-forge/shed) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/shed.svg)](https://anaconda.org/conda-forge/shed) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/shed.svg)](https://anaconda.org/conda-forge/shed) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/shed.svg)](https://anaconda.org/conda-forge/shed) |
 
 Installing shed
 ===============
