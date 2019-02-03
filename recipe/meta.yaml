@@ -1,6 +1,6 @@
 {% set name = "shed" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "ebfc543aeb54dd8e026c895e0543a2f024bb4a1097bb0e70797cafacfe34f691" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "fc8defcc490147241b0addfabcbc5a4a1424629f34feafbedcf186788cd456e7" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
