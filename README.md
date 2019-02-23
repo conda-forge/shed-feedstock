@@ -19,7 +19,7 @@ Current build status
 ====================
 
 All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/SHED-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/SHED-feedstock)
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/shed-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/shed-feedstock)
 
 Current release info
 ====================
