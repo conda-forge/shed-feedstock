@@ -1,6 +1,6 @@
 {% set name = "shed" %}
-{% set version = "0.7.2" %}
-{% set sha256 = "ad9397ec2ef106eb7c2ddda40a7e029326f99a19e4a4d5dabf990cf2447d7025" %}
+{% set version = "0.7.3" %}
+{% set sha256 = "c916c0fe726d94f6b9179511e62a673289befc1626b9c6257aad14b7ac7e288b" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ version }}.tar.gz
+  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/SHED-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
