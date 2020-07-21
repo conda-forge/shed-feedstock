@@ -5,7 +5,7 @@ Home: https://github.com/xpdAcq/SHED
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Streaming Heterogeneous Event Data
 
@@ -18,7 +18,7 @@ Current build status
 <table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5040&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/shed-feedstock?branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/SHED-feedstock?branchName=master">
       </a>
     </td>
   </tr>
