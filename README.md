@@ -5,7 +5,7 @@ Home: https://github.com/xpdAcq/SHED
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Streaming Heterogeneous Event Data
 
