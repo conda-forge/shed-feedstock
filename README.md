@@ -5,7 +5,7 @@ Home: https://github.com/xpdAcq/SHED
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Streaming Heterogeneous Event Data
 
@@ -116,5 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@CJ-Wright](https://github.com/CJ-Wright/)
+* [@mrakitin](https://github.com/mrakitin/)
+* [@sbillinge](https://github.com/sbillinge/)
+* [@st3107](https://github.com/st3107/)
 

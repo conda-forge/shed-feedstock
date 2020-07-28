@@ -1,6 +1,6 @@
 {% set name = "shed" %}
-{% set version = "0.7.3" %}
-{% set sha256 = "c916c0fe726d94f6b9179511e62a673289befc1626b9c6257aad14b7ac7e288b" %}
+{% set version = "0.7.4" %}
+{% set sha256 = "7e051fee4be89b15c87e7b1b4994c442783b680cf28962307dbe1057d9d3ea50" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -48,4 +48,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - CJ-Wright
+    - sbillinge
+    - st3107
+    - mrakitin
