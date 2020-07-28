@@ -18,7 +18,7 @@ Current build status
 <table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5040&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/SHED-feedstock?branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/shed-feedstock?branchName=master">
       </a>
     </td>
   </tr>
@@ -116,5 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@CJ-Wright](https://github.com/CJ-Wright/)
+* [@mrakitin](https://github.com/mrakitin/)
+* [@sbillinge](https://github.com/sbillinge/)
+* [@st3107](https://github.com/st3107/)
 
