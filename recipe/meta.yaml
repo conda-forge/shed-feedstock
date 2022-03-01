@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3
-    - bluesky ==1.6.4
+    - bluesky ==1.6
     - databroker
     - dask
     - dask-jobqueue
