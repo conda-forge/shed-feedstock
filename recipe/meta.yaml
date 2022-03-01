@@ -47,3 +47,9 @@ about:
   summary: 'Streaming Heterogeneous Event Data'
   doc_url: https://xpdacq.github.io/shed-streaming
   dev_url: https://github.com/xpdAcq/shed-streaming
+
+extra:
+  recipe-maintainers:
+    - sbillinge
+    - st3107
+    - mrakitin
