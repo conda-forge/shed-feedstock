@@ -1,19 +1,18 @@
-{% set name = "shed" %}
-{% set version = "0.7.5" %}
-{% set sha256 = "0550570c7d8191670ac27e5ed700561ef9766148ff620ea06c27515f7eeb1cbe" %}
+{% set name = "shed-streaming" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "1e79b432e8048e3f215c501d4549c24e55e7cd19465414812c493443663eca7b" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/SHED-{{ version }}.tar.gz
+  url: https://github.com/xpdAcq/{{ name }}/releases/download/{{ version }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 0
+  number: 3
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -22,14 +21,17 @@ requirements:
     - pip
   run:
     - python >=3
-    - rapidz
-    - numpy
-    - scipy
-    - matplotlib-base
+    - bluesky ==1.6.4
     - databroker
-    - bluesky
+    - dask
+    - dask-jobqueue
     - event-model
+    - matplotlib-base
     - networkx >=2.0
+    - numpy
+    - rapidz
+    - scipy
+    - streamz_ext
     - xonsh
 
 test:
@@ -38,16 +40,10 @@ test:
     - shed.translation
 
 about:
-  home: https://github.com/xpdAcq/SHED
+  home: https://github.com/xpdAcq/shed-streaming
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: Streaming Heterogeneous Event Data
-  doc_url: https://xpdacq.github.io/SHED/
-  dev_url: https://github.com/xpdAcq/SHED
-
-extra:
-  recipe-maintainers:
-    - sbillinge
-    - st3107
-    - mrakitin
+  summary: 'Streaming Heterogeneous Event Data'
+  doc_url: https://xpdacq.github.io/shed-streaming
+  dev_url: https://github.com/xpdAcq/shed-streaming
