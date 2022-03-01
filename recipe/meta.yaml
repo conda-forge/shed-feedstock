@@ -36,8 +36,8 @@ requirements:
 
 test:
   imports:
-    - shed
-    - shed.translation
+    - shed_streaming
+    - shed_streaming.translation
 
 about:
   home: https://github.com/xpdAcq/shed-streaming
