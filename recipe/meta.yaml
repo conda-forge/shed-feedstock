@@ -17,10 +17,10 @@ build:
 
 requirements:
   build:
-    - python >=3
+    - python >=3.6,<3.10
     - pip
   run:
-    - python >=3
+    - python >=3.6,<3.10
     - bluesky ==1.6.4
     - databroker
     - dask
